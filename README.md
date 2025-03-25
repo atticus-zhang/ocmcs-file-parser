@@ -13,9 +13,9 @@ If you have any trouble using the `dynamsoft_barcode_reader_bundle`, either talk
 ### Setting up
 Run the following commands in your console before using this script
 ```bash
-python 3 -m venv venv
+python3 -m venv venv
 source venv/bin/activate
-pip install pdf2image dynamsoft-barcode-reader numpy
+pip install pdf2image dynamsoft-barcode-reader-bundle numpy
 ```
 Then make sure that you are using the virtual environment that we have set up by using the shortcut `Ctrl + Shift + P` (Windows) or `Cmd + Shift + P` (MacOS) to open Command Palette. Then select `Python: Select Interpreter` and then something like `Python 3.13.2 ('venv')` (your python might have a different version, so just look for the `('venv')` at the end) and you are good to go.
 ## Usage
